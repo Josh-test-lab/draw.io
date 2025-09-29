@@ -19,7 +19,7 @@
         <mxCell id="OmPL4huzPycEzAdXIaUj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OmPL4huzPycEzAdXIaUj-6" target="OmPL4huzPycEzAdXIaUj-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OmPL4huzPycEzAdXIaUj-6" value="calc. loss1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="OmPL4huzPycEzAdXIaUj-6" value="calc. loss" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="40" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OmPL4huzPycEzAdXIaUj-7" value="return this loss for next iter." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
