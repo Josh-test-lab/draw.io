@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram name="original" id="3Jt0ARMRfDGDYG98E337">
+        <mxGraphModel dx="1326" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;" parent="1" source="OmPL4huzPycEzAdXIaUj-2" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OmPL4huzPycEzAdXIaUj-2" value="\[SSSD\] training" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" source="OmPL4huzPycEzAdXIaUj-4" target="OmPL4huzPycEzAdXIaUj-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OmPL4huzPycEzAdXIaUj-4" value="\[autoFRK\] inference all known locations" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="OmPL4huzPycEzAdXIaUj-6" target="OmPL4huzPycEzAdXIaUj-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OmPL4huzPycEzAdXIaUj-6" value="calculate loss" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="OmPL4huzPycEzAdXIaUj-7" value="backward and update weight" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="OmPL4huzPycEzAdXIaUj-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="\[SSSD\] predicting" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="temporary fix" id="PidJE5onO5FqOFuGEact">
+        <mxGraphModel dx="1326" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-0"/>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-1" parent="eEpvanIqG2hfwGxLQzdO-0"/>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-2" value="" style="edgeStyle=none;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" source="eEpvanIqG2hfwGxLQzdO-3" target="eEpvanIqG2hfwGxLQzdO-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-3" value="\[SSSD\] training" style="rounded=1;whiteSpace=wrap;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="MhkPLntSZXjMHWtbWQyQ-2" value="" style="edgeStyle=none;html=1;" edge="1" parent="eEpvanIqG2hfwGxLQzdO-1" source="eEpvanIqG2hfwGxLQzdO-5" target="MhkPLntSZXjMHWtbWQyQ-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-5" value="\[autoFRK\] inference all known locations" style="rounded=1;whiteSpace=wrap;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" vertex="1">
+                    <mxGeometry x="280" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-6" value="" style="edgeStyle=none;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" source="eEpvanIqG2hfwGxLQzdO-7" target="eEpvanIqG2hfwGxLQzdO-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-7" value="calculate loss" style="rounded=1;whiteSpace=wrap;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" vertex="1">
+                    <mxGeometry x="600" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-8" value="backward and update weight" style="rounded=1;whiteSpace=wrap;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" vertex="1">
+                    <mxGeometry x="720" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-9" value="" style="edgeStyle=none;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" source="eEpvanIqG2hfwGxLQzdO-10" target="eEpvanIqG2hfwGxLQzdO-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eEpvanIqG2hfwGxLQzdO-10" value="\[SSSD\] predicting" style="rounded=1;whiteSpace=wrap;html=1;" parent="eEpvanIqG2hfwGxLQzdO-1" vertex="1">
+                    <mxGeometry x="160" y="40" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="MhkPLntSZXjMHWtbWQyQ-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="eEpvanIqG2hfwGxLQzdO-1" source="MhkPLntSZXjMHWtbWQyQ-1" target="eEpvanIqG2hfwGxLQzdO-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="MhkPLntSZXjMHWtbWQyQ-1" value="\[autoFRK\ surrogate\ layer\]&lt;div&gt;Mapping SSSD predictions to autoFRK filling&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eEpvanIqG2hfwGxLQzdO-1">
+                    <mxGeometry x="400" y="40" width="160" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
